@@ -1,0 +1,9 @@
+scanpy
+squidpy
+anndata
+torch
+torch-geometric
+leidenalg
+scikit-learn
+matplotlib
+ipykernel
