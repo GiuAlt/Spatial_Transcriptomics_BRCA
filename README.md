@@ -14,7 +14,7 @@ A methodological note worth highlighting: a naive *dominant–cell-type* (argmax
 
 **Morphology bridge.** Per-spot features extracted from the H&E image (summary intensity + Haralick texture) differ markedly across the molecular domains — tumor domains show high-contrast texture, the normal-epithelial domain a smoother/more homogeneous signature. Tissue *appearance* therefore carries a signature of molecular identity: structure and state are spatially coupled.
 
-*Figures are in `figures/`.*
+
 
 ### Limitations / what I'd do next
 - Benchmark slide: QC thresholds, the number of domains, and cell-type identities are not validated against ground truth here. On new data I would test domain **stability** (across seeds/subsampling), check domains do **not** track technical covariates (`total_counts`, batch, array position), and **replicate** across sections/patients.
